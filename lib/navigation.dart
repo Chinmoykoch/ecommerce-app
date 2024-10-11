@@ -23,7 +23,7 @@ class Navigation extends StatelessWidget {
           selectedIndex: controller.selectedIndex.value,
           onDestinationSelected: (index) =>
               controller.selectedIndex.value = index,
-          backgroundColor: dark ? Tcolors.black : Tcolors.white,
+          backgroundColor: dark ? Tcolors.primary : Tcolors.white,
           indicatorColor: dark
               ? Tcolors.white.withOpacity(0.1)
               : Tcolors.black.withOpacity(0.1),
